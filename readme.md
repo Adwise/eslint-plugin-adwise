@@ -6,7 +6,7 @@ This is the Eslint configuration used by Adwise internally
 2. Create or add the following to your ```.eslintrc``` file:
 ```
 {
-    "extends": ["plugin:adwise/recommended"],
+    "extends": ["plugin:@adwise/adwise/recommended"],
     "rules": {}
 }    
 ```
