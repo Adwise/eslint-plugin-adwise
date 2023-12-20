@@ -6,6 +6,9 @@ module.exports = {
         "sourceType": "module",
         "ecmaVersion": 6
     },
+    plugins: [
+        'import'
+    ],
     rules: {
         // Disable undefined checking, since in the browser window is undefined
         "no-undef": "off",

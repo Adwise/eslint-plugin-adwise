@@ -1,7 +1,6 @@
 module.exports = {
     extends: [
         "plugin:vue/essential",
-        "@vue/standard"
     ],
     parser: "vue-eslint-parser",
     plugins: [
